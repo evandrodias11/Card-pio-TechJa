@@ -38,16 +38,25 @@ p {
 }
 
 footer {
-    bottom: 0;
-    color: #FFF;
-    width: 100%;
-    height: auto;    
-    text-align: center;
-    line-height: auto;
+  bottom: 0;
+  width: 100%;
+  height: auto;    
+  text-align: center;
+  line-height: auto;
 }
 
 footer img {
-    width: 60px;
-    height: 60px;
-    border-radius: 25px;
+  opacity:0.6;
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-left: 5px;
+}
+
+footer img:hover{
+box-shadow: 0 0 20px 20px;        			
+color: grey;
+opacity:1;
+width: 63px;
+height: 63px;
 }
