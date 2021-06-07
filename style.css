@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/36/41/bd/3641bd8a4e4342b9f67971a545f0b7ce.jpg');
+    background-size:100%;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+p {
+  color:DarkCyan
+}
+
+.titulo {
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.lista {
+  color: black;
+  text-align: center;
+}
+
+.foto{
+  width: 450px;
+  height: 300px;
+  border: 1px solid #505050;
+  border-radius: 80px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.foto:hover {
+  width: 460px;
+  height: 310px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+footer {
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: auto;    
+    text-align: center;
+    line-height: auto;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
