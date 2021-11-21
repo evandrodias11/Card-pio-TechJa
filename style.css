@@ -1,13 +1,13 @@
 body {
-    background-image: url('https://i.pinimg.com/originals/36/41/bd/3641bd8a4e4342b9f67971a545f0b7ce.jpg');
-    background-size:100%;
-    font-family: Verdana;
-    max-width: 900px;
-    margin: auto;
+  background-image: url("https://i.pinimg.com/originals/36/41/bd/3641bd8a4e4342b9f67971a545f0b7ce.jpg");
+  background-size: 100%;
+  font-family: Verdana;
+  max-width: 900px;
+  margin: auto;
 }
 
 p {
-  color:DarkCyan
+  color: DarkCyan;
 }
 
 .titulo {
@@ -21,7 +21,7 @@ p {
   text-align: center;
 }
 
-.foto{
+.foto {
   width: 450px;
   height: 300px;
   border: 1px solid #505050;
@@ -40,23 +40,23 @@ p {
 footer {
   bottom: 0;
   width: 100%;
-  height: auto;    
+  height: auto;
   text-align: center;
   line-height: auto;
 }
 
 footer img {
-  opacity:0.6;
+  opacity: 0.6;
   width: 60px;
   height: 60px;
   border-radius: 25px;
   margin-left: 5px;
 }
 
-footer img:hover{
-box-shadow: 0 0 20px 20px;        			
-color: grey;
-opacity:1;
-width: 63px;
-height: 63px;
+footer img:hover {
+  box-shadow: 0 0 20px 20px;
+  color: grey;
+  opacity: 1;
+  width: 63px;
+  height: 63px;
 }
